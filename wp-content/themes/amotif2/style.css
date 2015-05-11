@@ -1,0 +1,285 @@
+/*
+Theme Name: Åmot IF2
+Theme URI: amotif.no
+Description: Et tema laget spesifikt for Åmot IF
+Author: Fredrik Gabrielsen
+Author URI: gabrielsendesign.no
+Version: 0.2
+*/
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #D0E3F2;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#totalWrap {
+	min-height: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #006fb7;
+}
+
+#post a {
+	color: #00578F;
+	text-decoration: none;
+}
+
+#underInfo {
+	color: gray;
+	font-size: 12px;
+}
+
+#nav-under a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #00578F;
+}
+
+.nav-previous {
+	width: 100px;
+	float: left;
+}
+
+.nav-next {
+	width: 100px;
+	float: right;
+}
+
+.aligncenter, img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*	HEADER	*/
+header {
+	position: relative;
+	background: -webkit-linear-gradient(#36a0e5, #00578F);
+	height: 130px;
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#headerWrap {
+	position: relative;
+	height: 130px;
+	width: 960px;
+	margin: auto;
+}
+
+#headerWrap img {
+	margin-top: 10px;
+}
+
+/*	NAVIGATION	*/
+nav {
+	position: absolute;
+	width: 660px;
+	display: block;
+	right: 0px;
+	bottom: 0px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+nav li {
+	display: block;
+	position: relative;
+	float: right;
+}
+
+nav ul li ul {
+	display: none;
+}
+
+nav ul li a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+	padding: 10px 25px 10px 25px;
+	background-color: white;
+	-webkit-transition: background-color 0.2s, color 0.2s;
+	text-decoration: none;
+	color: #006fb7;
+	margin-left: 1px;
+	white-space: nowrap;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+nav ul li ul li a {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+nav ul li a:hover {
+	background-color: #7bbde7;
+	color: white;
+}
+
+nav ul li:hover ul {
+	display: block;
+	position: absolute;
+	z-index: 9999;
+}
+
+nav ul li:hover li {
+	float: none;
+	font-size: 11;
+}
+
+nav ul li:hover a {
+	background-color: #7bbde7;
+	color: white;
+}
+
+nav ul li:hover li a:hover {
+	background-color: #006fb7;
+	color: white;
+}
+
+.current_page_item a {
+	background-color: #D0E3F2;
+	color: #006fb7;
+}
+
+.current_page_parent a {
+	background-color: #D0E3F2;
+	color: #006fb7;
+}
+
+body.posts ul li#menu-item-109 a {
+	background-color: #D0E3F2;
+	color: #006fb7;
+}
+
+/*	WRAPPER	*/
+#wrapper {
+	position: relative;
+	height: auto;
+	width: 100%;
+	padding-bottom: 150px;
+}
+
+#main_center {
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+
+.whiteBox {
+	background-color: white;
+	padding: 20px;
+	border: 1px solid rgba(0, 111, 183, 0.5);
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 2px 8px gray;
+}
+
+/*	LARGE PHOTO VIEWER	*/
+#largeBox {
+	position: relative;
+	width: 940px;
+	height: 380px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.cycle-slideshow {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+/* 	 SIDEBARS	*/
+
+#sponsors {
+	width: 165px;
+	height: 230px;
+	float: right;
+}
+
+#calendar {
+	width: 165px;
+	height: auto;
+	float: right;
+	margin-bottom: 20px;
+}
+
+/*	 CALENDAR	*/
+#calendar ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#calendar li {
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	list-style-type: none;
+	color: #999;
+	font-size: 14px;
+}
+
+#calendar ul li a{
+	color: #006fb7;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*	 NEWS	*/
+#news {
+	position: relative;
+	width: 690px;
+	height: auto;
+	float: left;
+}
+
+#editSite a {
+	text-decoration: none;
+	float: right;
+	color: #006fb7;
+}
+
+/*	404	*/
+#wrap404 {
+	width: 300px;
+	height: 600px;
+	margin-top: 500px;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*	FOOTER	*/
+footer {
+	position: absolute;
+	height: 130px;
+	width: 100%;
+	background: -webkit-linear-gradient(#00578F, #36a0e5);
+	bottom: 0px;
+}
+
+#footerWrapper {
+	position: relative;
+	height: 130px;
+	width: 960px;
+	margin: auto;
+}
