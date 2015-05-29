@@ -1629,7 +1629,7 @@ function add_theme_support( $feature ) {
 
 		// Ensure that 'title-tag' is accessible in the admin.
 		case 'title-tag' :
-			// Can be called in functions.php but must happen before wp_loaded, i.e. not in header.php.
+			// Can be called in functions.php but must happen before wp_loaded, i.e. not in index.php.
 			if ( did_action( 'wp_loaded' ) ) {
 				/* translators: 1: Theme support 2: hook name */
 				_doing_it_wrong( "add_theme_support( 'title-tag' )", sprintf( __( 'Theme support for %1$s should be registered before the %2$s hook.' ),

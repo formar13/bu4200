@@ -1605,25 +1605,25 @@ var ajaxurl = '<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>',
 	isRtl = <?php echo (int) is_rtl(); ?>;
 </script>
 <?php
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( 'admin_enqueue_scripts', $hook_suffix );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( "admin_print_styles-$hook_suffix" );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( 'admin_print_styles' );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( "admin_print_scripts-$hook_suffix" );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( 'admin_print_scripts' );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( "admin_head-$hook_suffix" );
 
-/** This action is documented in wp-admin/admin-header.php */
+/** This action is documented in wp-admin/admin-index.php */
 do_action( 'admin_head' );
 
 $admin_body_class .= ' locale-' . sanitize_html_class( strtolower( str_replace( '_', '-', get_locale() ) ) );
@@ -1634,7 +1634,7 @@ if ( is_rtl() )
 ?>
 </head>
 <?php
-/** This filter is documented in wp-admin/admin-header.php */
+/** This filter is documented in wp-admin/admin-index.php */
 $admin_body_classes = apply_filters( 'admin_body_class', '' );
 ?>
 <body<?php if ( isset($GLOBALS['body_id']) ) echo ' id="' . $GLOBALS['body_id'] . '"'; ?> class="wp-admin wp-core-ui no-js iframe <?php echo $admin_body_classes . ' ' . $admin_body_class; ?>">

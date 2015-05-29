@@ -34,7 +34,7 @@ if ( ! isset( $content_width ) )
 /**
  * Add support for a custom header image.
  */
-require get_template_directory() . '/inc/custom-header.php';
+require get_template_directory() . '/inc/custom-index.php';
 
 /**
  * Twenty Thirteen only works in WordPress 3.6 or later.

@@ -549,10 +549,10 @@ final class WP_Customize_Widgets {
 	 * @access public
 	 */
 	public function print_styles() {
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in wp-admin/admin-index.php */
 		do_action( 'admin_print_styles-widgets.php' );
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in wp-admin/admin-index.php */
 		do_action( 'admin_print_styles' );
 	}
 
@@ -564,10 +564,10 @@ final class WP_Customize_Widgets {
 	 * @access public
 	 */
 	public function print_scripts() {
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in wp-admin/admin-index.php */
 		do_action( 'admin_print_scripts-widgets.php' );
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in wp-admin/admin-index.php */
 		do_action( 'admin_print_scripts' );
 	}
 
@@ -581,7 +581,7 @@ final class WP_Customize_Widgets {
 		wp_enqueue_style( 'customize-widgets' );
 		wp_enqueue_script( 'customize-widgets' );
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in wp-admin/admin-index.php */
 		do_action( 'admin_enqueue_scripts', 'widgets.php' );
 
 		/*

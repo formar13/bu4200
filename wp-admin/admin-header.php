@@ -10,11 +10,11 @@
 if ( ! defined( 'WP_ADMIN' ) )
 	require_once( dirname( __FILE__ ) . '/admin.php' );
 
-// In case admin-header.php is included in a function.
+// In case admin-index.php is included in a function.
 global $title, $hook_suffix, $current_screen, $wp_locale, $pagenow, $wp_version,
 	$update_title, $total_update_count, $parent_file;
 
-// Catch plugins that include admin-header.php before admin.php completes.
+// Catch plugins that include admin-index.php before admin.php completes.
 if ( empty( $current_screen ) )
 	set_current_screen();
 
