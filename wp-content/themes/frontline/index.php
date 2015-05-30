@@ -112,8 +112,8 @@
 
                         <div class="pagination">
                             <ul>
-                                <li class="older"><?php next_posts_link('Eldre') ?></li>
-                                <li class="newer"><?php previous_posts_link('Nyere') ?></li>
+                                <li class="older"><?php next_posts_link('Older') ?></li>
+                                <li class="newer"><?php previous_posts_link('Newer') ?></li>
                             </ul>
                         </div>
 
