@@ -111,10 +111,8 @@
                         <?php endwhile ?>
 
                         <div class="pagination">
-                            <ul>
-                                <li class="older"><?php next_posts_link('Older') ?></li>
-                                <li class="newer"><?php previous_posts_link('Newer') ?></li>
-                            </ul>
+                            <?php next_posts_link('Eldre poster'); ?>
+                            <?php previous_posts_link('Nyere poster'); ?>
                         </div>
 
                         <?php else : ?>
