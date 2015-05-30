@@ -105,7 +105,7 @@
 
                                 <?php the_content(''); ?>
 
-                                <p id="postmeta"><?php the_time('F jS, Y') ?></p>
+                                <p id="postmeta">Postet: <?php the_time(); ?></p>
                             </div>
                         <?php endwhile ?>
 
