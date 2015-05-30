@@ -66,13 +66,13 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="http://placehold.it/1920x600" alt="Laget">
+		      <img src="http://placehold.it/1920x700" alt="Laget">
 		    </div>
 		    <div class="item">
-		      <img src="http://placehold.it/1920x600" alt="Jiu Jitsu">
+		      <img src="http://placehold.it/1920x700" alt="Jiu Jitsu">
 		    </div>
 		    <div class="item">
-		      <img src="http://placehold.it/1920x600" alt="PLACEHOLDER">
+		      <img src="http://placehold.it/1920x700" alt="PLACEHOLDER">
 		    </div>
 		  </div>
 
@@ -98,9 +98,9 @@
                                 <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
 
                                 <?php if (has_post_thumbnail()) : ?>
-                                <div class="post-thumb">
-                                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                                </div>
+                                    <div class="post-thumb">
+                                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                                    </div>
                                 <?php endif ?>
 
                                 <?php the_content(''); ?>
