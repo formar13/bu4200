@@ -104,9 +104,8 @@
                                 <?php endif ?>
 
                                 <?php the_content(''); ?>
-                                <ul class="meta">
-                                    <li><?php the_time('F jS, Y') ?></li>
-                                </ul>
+
+                                <p id="postmeta"><?php the_time('F jS, Y') ?></p>
                             </div>
                         <?php endwhile ?>
 

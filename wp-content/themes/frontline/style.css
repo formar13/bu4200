@@ -7,3 +7,11 @@ Description: Et spesiallaget tema til Wordpress laget for Frontline Academy for 
 Version: 1.0
 */
 
+
+/*      FORSIDE      */
+
+/*  Poster  */
+#postmeta {
+    margin-top: 10px;
+    color: #555;
+}
