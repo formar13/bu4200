@@ -39,11 +39,11 @@ function get_header( $name = null ) {
 	if ( '' !== $name )
 		$templates[] = "header-{$name}.php";
 
-	$templates[] = 'index.php';
+	$templates[] = 'header.php';
 
 	// Backward compat code will be removed in a future release
 	if ('' == locate_template($templates, true))
-		load_template( ABSPATH . WPINC . '/theme-compat/index.php');
+		load_template( ABSPATH . WPINC . '/theme-compat/header.php');
 }
 
 /**

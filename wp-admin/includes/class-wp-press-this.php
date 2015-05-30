@@ -1245,25 +1245,25 @@ class WP_Press_This {
 			}
 		}
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_enqueue_scripts', 'press-this.php' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_print_styles-press-this.php' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_print_styles' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_print_scripts-press-this.php' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_print_scripts' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_head-press-this.php' );
 
-		/** This action is documented in wp-admin/admin-index.php */
+		/** This action is documented in wp-admin/admin-header.php */
 		do_action( 'admin_head' );
 	?>
 </head>
@@ -1276,7 +1276,7 @@ class WP_Press_This {
 	$admin_body_class .= ' admin-color-' . sanitize_html_class( get_user_option( 'admin_color' ), 'fresh' );
 	$admin_body_class .= ' locale-' . sanitize_html_class( strtolower( str_replace( '_', '-', get_locale() ) ) );
 
-	/** This filter is documented in wp-admin/admin-index.php */
+	/** This filter is documented in wp-admin/admin-header.php */
 	$admin_body_classes = apply_filters( 'admin_body_class', '' );
 
 ?>

@@ -456,7 +456,7 @@ var ajaxurl = '<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>', pageno
 isRtl = <?php echo (int) is_rtl(); ?>;
 </script>
 <?php
-	/** This action is documented in wp-admin/admin-index.php */
+	/** This action is documented in wp-admin/admin-header.php */
 	do_action( 'admin_enqueue_scripts', 'media-upload-popup' );
 
 	/**
@@ -466,7 +466,7 @@ isRtl = <?php echo (int) is_rtl(); ?>;
 	 */
 	do_action( 'admin_print_styles-media-upload-popup' );
 
-	/** This action is documented in wp-admin/admin-index.php */
+	/** This action is documented in wp-admin/admin-header.php */
 	do_action( 'admin_print_styles' );
 
 	/**
@@ -476,7 +476,7 @@ isRtl = <?php echo (int) is_rtl(); ?>;
 	 */
 	do_action( 'admin_print_scripts-media-upload-popup' );
 
-	/** This action is documented in wp-admin/admin-index.php */
+	/** This action is documented in wp-admin/admin-header.php */
 	do_action( 'admin_print_scripts' );
 
 	/**
@@ -487,7 +487,7 @@ isRtl = <?php echo (int) is_rtl(); ?>;
 	 */
 	do_action( 'admin_head-media-upload-popup' );
 
-	/** This action is documented in wp-admin/admin-index.php */
+	/** This action is documented in wp-admin/admin-header.php */
 	do_action( 'admin_head' );
 
 if ( is_string( $content_func ) ) {
