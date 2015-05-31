@@ -4510,14 +4510,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
 }
-.navbar-inverse .navbar-nav > li:hover > a,
-.navbar-inverse .navbar-nav > li:focus > a {
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active:hover > a,
-.navbar-inverse .navbar-nav > .active:focus > a {
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   /*background-color: #080808;*/
 }
@@ -4542,8 +4542,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: #101010;
 }
 .navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open:hover > a,
-.navbar-inverse .navbar-nav > .open:focus > a {
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
   /*background-color: #080808;*/
 }

@@ -7,6 +7,10 @@ Description: Et spesiallaget tema til Wordpress laget for Frontline Academy for 
 Version: 1.0
 */
 
+/*      NAVBAR      */
+.current_page_parent {
+    color: #fff;
+}
 
 /*      FORSIDE      */
 
