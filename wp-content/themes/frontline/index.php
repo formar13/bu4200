@@ -51,7 +51,7 @@
 
                                 <?php the_content(''); ?>
 
-                                <p id="postmeta">Postet: <?php the_time(); ?></p>
+                                <p id="postmeta">Postet: <?php the_time('j F, Y'); ?></p>
                             </article>
                         <?php endwhile ?>
 
