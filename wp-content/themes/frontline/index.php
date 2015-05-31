@@ -25,7 +25,7 @@
                             'menu' => 'top_menu',
                             'depth' => 2,
                             'container' => false,
-                            'menu_class' => 'nav',
+                            'menu_class' => 'nav navbar-nav',
                             //Process nav menu using our custom nav walker
                             'walker' => new wp_bootstrap_navwalker())
                     );
