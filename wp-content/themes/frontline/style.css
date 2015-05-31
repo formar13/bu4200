@@ -20,9 +20,8 @@ Version: 1.0
     color: #999;
 }
 
-.postArticle {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.postArticle:not(:first-of-type)  {
+    padding-top: 50px;
 }
 
 
