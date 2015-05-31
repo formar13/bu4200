@@ -14,7 +14,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			      <a class="navbar-brand" href="#">
-			      	<img alt="Frontline Academy" src="<?php bloginfo('template_url'); ?>/images/logo.png" height="20px">
+			      	<img alt="Frontline Academy" src="<?php bloginfo('template_url'); ?>/images/logo.png" height="50px">
 			      </a>
 			    </div>
 
