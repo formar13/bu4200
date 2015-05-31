@@ -20,3 +20,16 @@ Version: 1.0
     color: #999;
 }
 
+
+/*      RESULTATER      */
+.goldmedal {
+    background-color: #fff555;
+}
+
+.silvermedal {
+    background-color: #BBBBBB;
+}
+
+.bronzemedal {
+    background-color: #FFAD55;
+}
