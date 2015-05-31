@@ -24,12 +24,15 @@ Version: 1.0
 /*      RESULTATER      */
 .goldmedal > td {
     background-color: #FFF999;
+    width: 33%;
 }
 
 .silvermedal > td {
     background-color: #DDDDDD;
+    width: 33%;
 }
 
 .bronzemedal > td {
     background-color: #FFCC81;
+    width: 33%;
 }
