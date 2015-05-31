@@ -8,8 +8,6 @@
 
 get_header();
 
-if(dynamic_sidebar('forside_widgetarea')) : else : endif
-
 ?>
 
 <div class="container">
