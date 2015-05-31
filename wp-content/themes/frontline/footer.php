@@ -1,6 +1,7 @@
 	<footer class="footer">
 		<div class="container">
 			<p class="text-muted credit">Laget av gruppe 1</p>
+            <?php wp_footer() ?>
 		</div>
 	</footer>
 
