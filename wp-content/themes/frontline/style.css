@@ -21,11 +21,11 @@ Version: 1.0
 }
 
 .postArticle:not(:first-of-type)  {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .postArticle:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: -20px;
 }
 
 /*      RESULTATER      */
