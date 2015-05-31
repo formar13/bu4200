@@ -30,8 +30,8 @@ function frontline_child_widgets_init() {
     register_sidebar( array(
             'name' => 'Forside Widgetarea',
             'id' => 'forside_widgetarea',
-            'before_widget' => '<div class="class="col-sm-3 col-xs-12""><div class="panel panel-default">',
-            'after_widget' => '</div></div>',
+            'before_widget' => '<div class="col-sm-3 col-xs-12" ><div class="panel panel-default"><div class="panel-body">',
+            'after_widget' => '</div></div></div>',
             'before_title' => '<h3>',
             'after_title' => '</h3>'
         ));
