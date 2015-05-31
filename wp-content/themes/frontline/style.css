@@ -23,13 +23,13 @@ Version: 1.0
 
 /*      RESULTATER      */
 .goldmedal > td {
-    background-color: #fff555;
+    background-color: #FFF999;
 }
 
 .silvermedal > td {
-    background-color: #BBBBBB;
+    background-color: #DDDDDD;
 }
 
 .bronzemedal > td {
-    background-color: #FFAD55;
+    background-color: #FFCC81;
 }
