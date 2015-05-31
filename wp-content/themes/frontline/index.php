@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 	<header class="navbar-inverse">
 		<div class="container">
 
@@ -13,41 +14,22 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			      <a class="navbar-brand" href="#">
-			      	<img alt="Frontline Academy" src="images/logo.png" height="20px" width="140px">
+			      	<img alt="Frontline Academy" src="<?php bloginfo('template_url'); ?>/images/logo.png" height="20px">
 			      </a>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Nyheter <span class="sr-only">(current)</span></a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kampsportene <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Brasilians Jiu-jitsu (BJJ)</a></li>
-			            <li><a href="#">Submission Wrestling (SW)</a></li>
-			            <li><a href="#">Mixed Martial Arts (MMA)</a></li>
-			            <li><a href="#">Thai Boksing (Muay Thai)</a></li>
-			            <li><a href="#">YogaUnião</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Brasilians Jiu-jitsu (10 til 17 år)</a></li>
-			            <li><a href="#">Kickboksing (10 til 17 år)</a></li>
-			            <li><a href="#">YogaNinjas (5 til 9 år)</a></li>
-			          </ul>
-			        </li>
-			        <li><a href="#">Treningstider</a></li>
-			        <li><a href="#">Nettbutikk</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Om oss <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Om klubben</a></li>
-			            <li><a href="#">Våre fasiliteter</a></li>
-			            <li><a href="#">Priser</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Kontakt oss</a></li>
-			          </ul>
-			        </li>
-			      </ul>
+                    <?php /* Primary navigation */
+                    wp_nav_menu( array(
+                            'menu' => 'top_menu',
+                            'depth' => 2,
+                            'container' => false,
+                            'menu_class' => 'nav',
+                            //Process nav menu using our custom nav walker
+                            'walker' => new wp_bootstrap_navwalker())
+                    );
+                    ?>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			</nav>
