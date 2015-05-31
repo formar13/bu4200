@@ -26,12 +26,15 @@ if(dynamic_sidebar('forside_widgetarea')) : else : endif
                             <?php the_content(); ?>
                         </article>
 
-                    <?php endwhile: ?>
-                    <?php endif ?>
+                    <?php endwhile; ?>
+                    <?php endif; ?>
 
                 </div>
             </div>
         </div>
+
+        <?php if(dynamic_sidebar('forside_widgetarea')) : else : endif ?>
+
     </div>
 </div>
 
