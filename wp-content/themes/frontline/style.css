@@ -22,14 +22,14 @@ Version: 1.0
 
 
 /*      RESULTATER      */
-.goldmedal {
+.goldmedal > td {
     background-color: #fff555;
 }
 
-.silvermedal {
+.silvermedal > td {
     background-color: #BBBBBB;
 }
 
-.bronzemedal {
+.bronzemedal > td {
     background-color: #FFAD55;
 }
