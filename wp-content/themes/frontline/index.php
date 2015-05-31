@@ -37,7 +37,7 @@
 	</header>
 
 	<div class="container">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -105,15 +105,9 @@
 				  </div>
 				</div>
 			</div>
-			<div class="col-sm-3 col-xs-12" >
-				<div class="panel panel-default">
-				  <div class="panel-body">
-				  	    <h3>Prøvetime</h3>
-				  	    <p>Velkommen til oss for å bli kjent med trenerne og for å få en enkel innføring i kursene vi tilbyr. Vi gleder oss til å få deg på besøk!</p>
-				  		<p><a href="#" class="btn btn-primary" role="button">Bestill</a></p>
-				  </div>
-				</div>
-			</div>
+
+            <?php get_sidebar() ?>
+
 		</div>
 	</div>
 	<?php get_footer(); ?>
