@@ -76,7 +76,7 @@
 
                         <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
-                            <div <?php post_class(); ?>>
+                            <article <?php post_class(); ?>>
                                 <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
 
                                 <?php if (has_post_thumbnail()) : ?>
@@ -88,7 +88,7 @@
                                 <?php the_content(''); ?>
 
                                 <p id="postmeta">Postet: <?php the_time(); ?></p>
-                            </div>
+                            </article>
                         <?php endwhile ?>
 
                         <div class="pagination">
@@ -106,7 +106,7 @@
 				</div>
 			</div>
 
-            <?php get_sidebar() ?>
+            <?php if(dynamic_sidebar('forside_widgetarea')) : else : endif ?>
 
 		</div>
 	</div>
