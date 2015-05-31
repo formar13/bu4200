@@ -8,7 +8,7 @@ Version: 1.0
 */
 
 /*      NAVBAR      */
-.current_page_parent {
+.current_page_parent .current_page_ancestor {
     color: #fff;
 }
 
