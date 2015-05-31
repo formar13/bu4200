@@ -20,6 +20,10 @@ Version: 1.0
     color: #999;
 }
 
+.postArticle {
+    margin-bottom: 30px;
+}
+
 
 /*      RESULTATER      */
 .goldmedal > td {
