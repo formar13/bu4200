@@ -32,7 +32,7 @@ Version: 1.0
     color: #555555;
 }
 
-.headerFront a:hover {
+.headerFront a:hover, .headerFront a:active, .headerFront a:focus {
     color: #888888;
     text-decoration: none;
 }
