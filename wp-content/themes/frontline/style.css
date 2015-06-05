@@ -53,7 +53,27 @@ Version: 1.0
     width: 33%;
 }
 
+/*      SIDER      */
+.panel-main img {
+    margin: 25px;
+}
+
+.panel-main p strong {
+    line-height: 50px;
+    text-vertical-align: bottom;
+}
+
+.panel-main section {
+    display: block;
+    height: 100%;
+    float: left;
+}
+
+.center-image {
+    text-align: center;
+}
+
 /*      FOOTER      */
-footer {
+footer.footer {
     height: 150px;
 }

@@ -13,7 +13,7 @@ get_header();
 <div class="container">
     <div class="row">
         <div class="col-sm-9 col-xs-12">
-            <div class="panel panel-default">
+            <div class="panel panel-default panel-main">
                 <div class="panel-body">
 
                     <?php if (have_posts()) : ?>
