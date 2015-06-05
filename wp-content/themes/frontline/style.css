@@ -28,7 +28,7 @@ Version: 1.0
     margin-bottom: -20px;
 }
 
-.headerFront {
+.headerFront a {
     color: #8E0000;
 }
 
