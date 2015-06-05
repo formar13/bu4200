@@ -32,6 +32,7 @@ get_header();
         </div>
 
         <?php if(dynamic_sidebar('forside_widgetarea')) : else : endif ?>
+        <?php if(dynamic_sidebar('sosiale_medier_widgetarea')) : else : endif ?>
 
     </div>
 </div>

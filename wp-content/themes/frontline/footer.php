@@ -1,11 +1,10 @@
 	<footer class="footer">
 		<div class="container">
-			<p class="text-muted credit">Laget av gruppe 1</p>
+			<p class="text-muted credit" align="center">Frontline Academy Oslo - mob. 4000 4856 - <a href="#">Bogstadveien 27b Uetg, 0355 Oslo</a></br><a href="#">Personvern / bruk av cookies</a></br>Løsningen er utviklet med Bootstrap og Wordpress publiseringsverktøy</p>
             <?php wp_footer() ?>
 		</div>
 	</footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url')?>/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

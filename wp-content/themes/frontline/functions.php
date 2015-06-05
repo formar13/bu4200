@@ -37,6 +37,18 @@ function frontline_child_widgets_init() {
         ));
 }
 
+function frontline_widgets_sosiale_medier_init() {
+    register_sidebar( array(
+        'name' => 'Sosiale Medier Widgetarea',
+        'id' => 'sosiale_medier_widgetarea',
+        'before_widget' => '<div class="col-sm-3 col-xs-12" ><div class="panel panel-default"><div class="panel-body">',
+        'after_widget' => '</div></div></div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+}
+
 add_action('widgets_init', 'frontline_child_widgets_init');
+add_action('widgets_init', 'frontline_widgets_sosiale_medier_init');
 
 ?>
