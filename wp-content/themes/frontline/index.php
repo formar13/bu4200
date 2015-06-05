@@ -41,7 +41,7 @@
                         <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
                             <article <?php post_class('postArticle'); ?>>
-                                <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+                                <h2 class="headerFront"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
 
                                 <?php if (has_post_thumbnail()) : ?>
                                     <div class="post-thumb">
