@@ -22,6 +22,14 @@ function wpt_register_css() {
 }
 add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
 
+// JQuery i footer
+function add_jQuery() {
+    if (!is_admin()) {
+        wp_enqueue_script('jquery');
+    }
+}
+add_action('init', 'add_jQuery');
+
 // Register custom navigation walker
 require_once('wp_bootstrap_navwalker.php');
 
@@ -41,7 +49,7 @@ function frontline_widgets_sosiale_medier_init() {
     register_sidebar( array(
         'name' => 'Sosiale Medier Widgetarea',
         'id' => 'sosiale_medier_widgetarea',
-        'before_widget' => '<div class="col-sm-3 col-xs-12" ><div class="panel panel-default"><div class="panel-body">',
+        'before_widget' => '<div class="col-sm-3 col-xs-12 pull-right" ><div class="panel panel-default"><div class="panel-body">',
         'after_widget' => '</div></div></div>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'
