@@ -29,7 +29,12 @@ Version: 1.0
 }
 
 .headerFront a {
-    color: #8E0000;
+    color: #555555;
+}
+
+.headerFront a:hover {
+    color: #888888;
+    text-decoration: none;
 }
 
 /*      RESULTATER      */
