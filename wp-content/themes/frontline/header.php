@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<?php wp_head(); ?>
 </head>
 <body>

@@ -42,6 +42,10 @@ Version: 1.0
     text-decoration: none;
 }
 
+.panel-main h4 {
+    margin-top: 50px;
+}
+
 /*      RESULTATER      */
 .goldmedal > td {
     background-color: #FFF999;
