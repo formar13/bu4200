@@ -87,6 +87,16 @@ Version: 1.0
     text-align: center;
 }
 
+.pdb-signup th {
+    width: 50%;
+    float: left;
+}
+
+.pdb-signup td {
+    width: 50%;
+    float: left;
+}
+
 /*      FOOTER      */
 footer.footer {
     height: 130px;
