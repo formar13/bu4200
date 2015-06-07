@@ -97,6 +97,10 @@ Version: 1.0
     float: left;
 }
 
+.newsletter-submit {
+    margin-top: 30px;
+}
+
 /*      FOOTER      */
 footer.footer {
     height: 130px;
